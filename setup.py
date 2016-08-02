@@ -26,9 +26,10 @@ setup(
 
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3 :: Only',
     ],
 
     packages=find_packages(),
 
-    install_requires=['pyserial'],
+    install_requires=['pyserial-asyncio'],
 )
